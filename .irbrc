@@ -1,3 +1,5 @@
+# Taken from: https://raw.github.com/sdball/dotfiles/master/.irbrc
+
 # ruby 1.8.7 compatible
 require 'rubygems'
 require 'irb/completion'
