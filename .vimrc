@@ -15,7 +15,6 @@ Plugin 'joker1007/vim-ruby-heredoc-syntax'
 Plugin 'kien/ctrlp.vim'
 
 
-
 call vundle#end()
 filetype plugin indent on
 
@@ -49,3 +48,7 @@ else
 	let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 	let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
+
+
+" Ignore certain folders for the kien/ctrpl.vim plugin
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
