@@ -51,4 +51,4 @@ endif
 
 
 " Ignore certain folders for the kien/ctrpl.vim plugin
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|tmp'
