@@ -52,3 +52,6 @@ endif
 
 " Ignore certain folders for the kien/ctrpl.vim plugin
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|tmp'
+
+" Shortcut for formatting JSON
+com! FormatJSON %!python -m json.tool

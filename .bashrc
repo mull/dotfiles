@@ -46,3 +46,6 @@ function parse_git_dirty {
 }
 
 export PS1="\u\\$\W\`parse_git_branch\` "
+export LC_ALL=en_US.UTF-8
+
+source /Users/mull/Library/Preferences/org.dystroy.broot/launcher/bash/br
