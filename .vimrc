@@ -13,7 +13,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'joker1007/vim-ruby-heredoc-syntax'
 Plugin 'kien/ctrlp.vim'
-
+Plugin 'mrkn/vim-cruby'
 
 call vundle#end()
 filetype plugin indent on
@@ -29,7 +29,10 @@ set hlsearch " highlight matches
 
 set tabstop=2
 set softtabstop=2
+set shiftwidth=2
 set expandtab
+
+set encoding=utf-8
 
 " let escape delete characters and whatnot
 set backspace=indent,eol,start
